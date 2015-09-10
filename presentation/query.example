@@ -1,0 +1,12 @@
+{
+  user(id: 3500401) {
+    id,
+    name,
+    isViewerFriend,
+    profilePicture(size: 50)  {
+      uri,
+      width,
+      height
+    }
+  }
+}

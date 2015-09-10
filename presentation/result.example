@@ -1,0 +1,12 @@
+{
+  "user" : {
+    "id": 3500401,
+    "name": "Jing Chen",
+    "isViewerFriend": true,
+    "profilePicture": {
+      "uri": "http://someurl.cdn/pic.jpg",
+      "width": 50,
+      "height": 50
+    }
+  }
+}
