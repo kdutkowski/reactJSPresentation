@@ -4,7 +4,7 @@
   "description": "ReactJS Powered Presentation Framework",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server",
+    "start": "webpack-dev-server --port 5000",
     "lint": "eslint --ext .js,.jsx src",
     "build": "webpack",
     "deploy": "npm run build && surge -p ./dist"
