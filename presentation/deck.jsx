@@ -42,6 +42,20 @@ export default class extends React.Component {
             <ListItem><Appear fid="5">Can I use it with AngularJS?</Appear></ListItem>
           </List>
         </Slide>
+        <Slide transition={["spin"]} bgColor="primary" textColor="tertiary">
+          <Heading>Hello World</Heading>
+          <CodePane
+            lang="javascript"
+            source={require("raw!./hello.example")}
+            margin="20px auto"/>
+        </Slide>
+        <Slide transition={["spin"]} bgColor="primary" textColor="tertiary">
+          <Heading>Another example</Heading>
+          <CodePane
+            lang="javascript"
+            source={require("raw!./example2.example")}
+            margin="20px auto"/>
+        </Slide>
       </Deck>
     );
   }
